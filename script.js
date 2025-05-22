@@ -2,7 +2,6 @@ let current = 0;
 let score = 0;
 
 function showQuestion() {
-  let quiz;
   const q = quiz[current];
   document.getElementById("question").innerText = q.question;
 

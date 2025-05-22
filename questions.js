@@ -1,4 +1,4 @@
-[
+const quiz = [
   {
     "question": "What is the time complexity of the following code?\n\nfunction printNumbers(n) {\n  for (let i = 0; i < n; i++) {\n    console.log(i);\n  }\n}",
     "options": ["O(1)", "O(n)", "O(n^2)", "O(log n)"],
